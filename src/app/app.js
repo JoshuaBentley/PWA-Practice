@@ -1,3 +1,8 @@
+import { inputsAreValid } from "../../utils/inputs-are-valid";
+import { ComponentService } from "./component.service";
+import { AlertService } from "./aler.service";
+import { parseInputs } from "../../utils/parse-inputs";
+
 const alertService = new AlertService();
 const componentService = new ComponentService();
 const run = (alertService, componentService) => {
